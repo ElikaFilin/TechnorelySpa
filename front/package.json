@@ -1,0 +1,26 @@
+{
+  "name": "view_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx neutrino build",
+    "start": "npx neutrino start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.28",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.4",
+    "ssh-keygen": "^0.4.2",
+    "vue-loader": "^13.0.5",
+    "vue-style-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@neutrinojs/vue": "^8.3.0",
+    "neutrino": "^8.3.0"
+  }
+}

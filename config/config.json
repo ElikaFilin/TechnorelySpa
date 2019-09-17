@@ -1,0 +1,32 @@
+{
+  "development": {
+    "host": "192.168.1.6",
+    "username": "admin",
+    "password": "admin",
+    "database": "database_spa",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "ssh":{
+    "keyName":"spa_id"
+  },
+  "session": {
+  "secret" : "elika@filin"
+  }
+}
